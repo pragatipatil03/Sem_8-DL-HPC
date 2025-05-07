@@ -115,8 +115,7 @@ int main()
     int *arr = new int[n];
     for (int i = 0; i < n; ++i)
     {
-        cout << "Enter element : ";
-        cin >> arr[i];
+        arr[i]=rand() % 1000;
     }
 
     cout << "Original array: ";
